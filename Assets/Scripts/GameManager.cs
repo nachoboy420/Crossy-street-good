@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class GameManager : MonoBehaviour
 {
-    
+
     public GameObject gameOverUI;
-    
+
     public void GameOver()
     {
         Debug.Log("Game Over triggered.");
@@ -13,14 +14,10 @@ public class GameManager : MonoBehaviour
     }
 
     public void RestartGame()
-    { 
+    {
         Debug.Log("RestartGame called");
-    Time.timeScale = 1f;
-    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    Debug.Log(" Restart button works!");
-    Time.timeScale = 1f;
-    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
-    } 
 

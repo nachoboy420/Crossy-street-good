@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class CarSpawner : MonoBehaviour
 {
 
-    public GameObject objectToSpawn; // Assign car or fireball prefab here
+    public GameObject[] objectToSpawn; // Assign car or fireball prefab here
     public float spawnInterval = 4f; // Time between spawns
     public Vector2 spawnRangeX = new Vector2(-5f, 5f);
     public float spawnRadius = 1.5f; // Avoids overlap
@@ -28,7 +29,8 @@ public class CarSpawner : MonoBehaviour
             Collider2D hit = Physics2D.OverlapCircle(transform.position, spawnRadius);
             if (hit == null)
             {
-                Instantiate(objectToSpawn, transform.position, transform.rotation);
+                int random = Random.Range(0, objectToSpawn.Length);
+                Instantiate(objectToSpawn[random], transform.position, transform.rotation);
             }
 
             timer = 0f; // Reset timer either way
@@ -39,8 +41,8 @@ public class CarSpawner : MonoBehaviour
         {
             Vector3 spawnPos = transform.position;
             spawnPos.x += Random.Range(spawnRangeX.x, spawnRangeX.y);
-            Instantiate(objectToSpawn, spawnPos, transform.rotation);
-
+            int random = Random.Range(0, objectToSpawn.Length);
+            Instantiate(objectToSpawn[random], spawnPos, transform.rotation);
         }
     }
 

@@ -11,9 +11,8 @@ public class CarScript : MonoBehaviour
 
     void Start()
     {
-        fireballRB.linearVelocity = transform.right * speed;
-        Destroy(gameObject, destroyTimer);
-
+        Destroy(gameObject, destroyTimer); 
+        fireballRB.linearVelocity = Vector2.right * speed; // Move straight 
     }
 
     // Update is called once per frame

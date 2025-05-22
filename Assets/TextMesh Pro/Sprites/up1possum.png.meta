@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d6c0e51fb66969d4fa0ce1cd9f870c8e
+guid: 27332c6651247c044b01386a8725ab08
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7100757809047929424
-    second: pixilart-drawing_0
+      213: 2912297781628502651
+    second: pixil-frame-0 (4)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixilart-drawing_0
+      name: pixil-frame-0 (4)_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 12
-        width: 31
-        height: 52
+        x: 86
+        y: 19
+        width: 141
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 052026c1b95fa8260800000000000000
-      internalID: 7100757809047929424
+      spriteID: b720022076f8a6820800000000000000
+      internalID: 2912297781628502651
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c2cef7c192c7ad04e86e8ac3edf2b062
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pixilart-drawing_0: 7100757809047929424
+      pixil-frame-0 (4)_0: 2912297781628502651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
